@@ -1,0 +1,25 @@
+Εγκατάσταση GLFW : 
+
+1)Ανοίγετε το Project\Cmake\bin\cmake-gui που βρίσκεται στον φάκελο.
+
+2)Ως Source Code επιλέγετε το Project\Source\glfw-3.3.2 που βρίσκεται στον φάκελο,και ως build το Project\Build\GLFW και πατάτε generate.
+
+3)Ανοίγετε το GLFW.sln και κάνετε build solution.
+
+4)Κατευθύνεστε στο φάκελο src\Debug κάτω απ΄το GLFW που βρίσκεστε ήδη και θα βρείτε ένα glfw3.lib το οποίο θα τοποθετήσετε στον φάκελο Project\Libraries\glfwLib.
+
+Εγκατάσταση Assimp : 
+
+1)Ανοίγετε το Project\Cmake\bin\cmake-gui που βρίσκεται στον φάκελο.
+
+2)Ως Source Code επιλέγετε το Project\Source\assimp-5.0.1 που βρίσκεται στον φάκελο,και ως build το Project\Build\Assimp και πατάτε generate.
+
+3)Ανοίγετε το Assimp.sln και κάνετε build solution.
+
+4)Κατευθύνεστε στο φάκελο code\Debug κάτω απ΄το Assimp που βρίσκεστε ήδη και θα βρείτε ένα assimp-vc142-mtd.lib το οποίο θα τοποθετήσετε στον φάκελο Project\Libraries\AssimpLib.
+
+5)Απ΄τον φάκελο code\Debug κάτω απ΄το Assimp θα βρείτε και ένα assimp-vc142-mtd.dll το οποίο θα τοποθετήσετε στο φάκελο x64/Debug του φακέλου Project(όπου βρίσκεται δηλαδή το GraphicsLab.exe).
+
+6)Επιπλέον απ΄τον φάκελο Build\Assimp θα πάρετε και τον include φάκελο τον οποίο θα τοποθετήσετε στο φάκελο Project\Libraries\Assimp
+
+7)Τέλος απ'τον φάκελο Project\Source\assimp-5.0.1 θα πάρετε τον φάκελο include και θα τον βάλετε στην θέση Project\Libraries\Assimp (κάνοντας replace ότι σας λέει).
